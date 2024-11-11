@@ -7,18 +7,21 @@ https://civitai.com/models/712067/flux-lora-3d-cartoon-lora
 3. ```cd ComfyUI```
 4. ```python main.py```
 
-## GUI
+### GUI
 http://127.0.0.1:8188/
 
-### setting
+#### setting
 ![](./asset/load.png)
 
-When load ```workflow.json```, an error occurs. 
+1. Click ```Load```, open ```workflow.json```
+
+After loading ```workflow.json```, an error occurs.
+
 To resolve this, close the error window and follow these steps:
 
-1. Go to ```Manager``` → ```Install Missing Custom Nodes```
-2. Click ```Install```
-3. Then, click ```Restart```
+4. Go to ```Manager``` → ```Install Missing Custom Nodes```
+5. Click ```Install```
+6. Then, click ```Restart```
 
 After reloading the website, the error should be resolved.
 
@@ -29,10 +32,11 @@ After reloading the website, the error should be resolved.
 <img src='./asset/error-3.png' width='500px'>
 
 
-### prompt
-CLIP Text Encode (Prompt): ```An 3D cartoon character, used as a UI design avatar, touxiang, ui design, 3D, avatar, solo, simple background, white background.Marvel superhero Thor```
+#### prompt
+7. CLIP Text Encode (Prompt): ```An 3D cartoon character, used as a UI design avatar, touxiang, ui design, 3D, avatar, solo, simple background, white background.Marvel superhero Thor```
+8. Click ```Queue Prompt``` to run
 
 ![](./asset/flow.png)
 
-### result
+## Result
 ![](./asset/result.png)
