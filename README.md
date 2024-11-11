@@ -4,13 +4,16 @@ https://civitai.com/models/712067/flux-lora-3d-cartoon-lora
 ## How to Use
 1. ```chmod +x setup.sh```
 2. ```sh setup.sh```
-3. ```python main.py```
+3. ```cd ComfyUI```
+4. ```python main.py```
 
 ## GUI
 http://127.0.0.1:8188/
 
 ### setting
-When accessing the URL, an error occurs. 
+![](./asset/load.png)
+
+When load ```workflow.json```, an error occurs. 
 To resolve this, close the error window and follow these steps:
 
 1. Go to ```Manager``` → ```Install Missing Custom Nodes```
