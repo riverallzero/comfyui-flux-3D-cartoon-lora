@@ -19,12 +19,16 @@ To resolve this, close the error window and follow these steps:
 
 After reloading the website, the error should be resolved.
 
-|![](./asset/error-1.png)|![](./asset/error-2.png)|
-|--|--|
-![](./asset/error-3.png)
+<img src='./asset/error-1.png' width='500px'>
+
+<img src='./asset/error-2.png' width='500px'>
+
+<img src='./asset/error-3.png' width='500px'>
+
 
 ### prompt
-CLIP Text Encode (Prompt)
+CLIP Text Encode (Prompt): ```An 3D cartoon character, used as a UI design avatar, touxiang, ui design, 3D, avatar, solo, simple background, white background.Marvel superhero Thor```
+
 ![](./asset/flow.png)
 
 ### result
