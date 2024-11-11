@@ -19,7 +19,7 @@ pip install -r requirements.txt
 cd custom_nodes
 
 # Step 7: Clone the ComfyUI-Manager repository
-git clone https://github.com/ltdrdata/ComfyUI-Manager ./custom_nodes
+git clone https://github.com/ltdrdata/ComfyUI-Manager
 
 # Step 8: Go back to the ComfyUI directory
 cd ..
