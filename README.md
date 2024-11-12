@@ -3,9 +3,10 @@ https://civitai.com/models/712067/flux-lora-3d-cartoon-lora
 
 ## How to Use
 1. ```chmod +x setup.sh```
-2. ```sh setup.sh```
+2. ```bash setup.sh```
 3. ```cd ComfyUI```
-4. ```python main.py```
+4. ```conda activate flux-ai```
+5. ```python main.py```
 
 ### GUI
 http://127.0.0.1:8188/

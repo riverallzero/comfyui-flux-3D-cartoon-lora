@@ -1,10 +1,12 @@
 #!/bin/bash
 
 # Step 1: Create a conda environment
-conda create -n flux-ai python=3.10 -y
+source ~/anaconda3/etc/profile.d/conda.sh
+
+conda create -n flux-ai python=3.12 -y
 
 # Step 2: Activate the environment
-conda activate flux-ai
+source activate flux-ai
 
 # Step 3: Clone ComfyUI repository
 git clone https://github.com/comfyanonymous/ComfyUI.git
@@ -53,3 +55,4 @@ mv 3d_avatar-000018.safetensors ../models/loras
 
 # Step 18: Return to the previous directory
 cd ..
+
